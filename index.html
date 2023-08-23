@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Promedios</title>
+    <!-- Enlace al archivo de estilos CSS -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <h1>Calculadora de Promedios</h1>
+        <!-- Contenedor del formulario -->
+        <div class="form-container">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido">
+            <label for="materia">Materia:</label>
+            <select id="materia">
+                <option value="Vacio"></option>
+                <option value="Lengua">Lengua</option>
+                <option value="Matemática">Matemática</option>
+                <option value="Química">Química</option>
+                <option value="Física">Física</option>
+                <option value="Programación">Programación</option>
+            </select>
+            <label for="parcial1">Parcial 1:</label>
+            <input type="number" id="parcial1" max="10">
+            <label for="parcial2">Parcial 2:</label>
+            <input type="number" id="parcial2" max="10">
+            <label for="parcial3">Parcial 3:</label>
+            <input type="number" id="parcial3" max="10">
+            <button id="calcular">Calcular Promedio</button>
+            <button id="borrar">Borrar</button>
+        </div>
+        <!-- Contenedor de resultados -->
+        <div class="result-container" id="result">
+            <!-- Resultados de los alumnos se mostrarán aquí como tarjetas -->
+        </div>
+        <!-- Contenedor de usuarios -->
+        <div class="usuarios-container" id="usuarios">
+            <!-- Usuarios guardados se mostrarán aquí como tarjetas -->
+        </div>
+        <!-- Contenedor de historial -->
+        <div class="historico-container" id="historico">
+            <!-- Historial de alumnos se mostrará aquí como tarjetas -->
+        </div>
+    </div>
+    <!-- Enlace al archivo de scripts JavaScript -->
+    <script src="./app.js"></script>
+</body>
+</html>

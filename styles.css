@@ -1,0 +1,94 @@
+/* Estilo para los inputs */
+input[type="text"],
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilo para las etiquetas de los inputs */
+label {
+  font-weight: bold;
+}
+
+/* Estilo para el botón Calcular Promedio */
+#calcular {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color en el botón al pasar el cursor por encima */
+#calcular:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para el botón Borrar */
+#borrar {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color en el botón al pasar el cursor por encima */
+#borrar:hover {
+  background-color: #c82333;
+}
+
+/* Estilo para los resultados y datos de usuarios */
+.result-container p,
+.usuario p {
+  margin: 10px 0;
+}
+
+/* Estilo para el título principal */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajuste del margen superior del formulario */
+.form-container {
+  margin-top: 30px;
+}
+
+/* Ajuste del margen superior del resultado */
+.result-container {
+  margin-top: 30px;
+}
+
+/* Estilo para los botones en el formulario */
+.botones button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambio de color en el botón al pasar el cursor por encima */
+.botones button:hover {
+  background-color: #218838;
+}
